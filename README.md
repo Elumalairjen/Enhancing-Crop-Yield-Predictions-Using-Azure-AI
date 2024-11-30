@@ -1,17 +1,7 @@
- # Azure-Dream-Catcher
+ # *Crop-Yield-Prediction
 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0485e4f8-ffd2-4560-a4c0-9e6aa102549f" alt="main_logo">
-</p>
-<p align="center">
-<img src="https://img.shields.io/badge/Azure_ML-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure ML Workspace" width="100" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" width="100" />
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" width="100" />
-<img src="https://img.shields.io/badge/Azure_AI-5C2D91?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure AI" width="100" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="logo" width="100" />
 
-  </p>
 This project enables users to predict crop yields using advanced Azure AI tools and visualize results in Power BI Desktop. The ML model is trained, deployed as a REST API, and integrated with Power BI for testing and reporting.
 
 
