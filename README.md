@@ -90,8 +90,6 @@ https://github.com/user-attachments/assets/dbb6fda5-f57f-48f4-84fc-8767e7b2a274
 
 ## Presentation link :
 
-[Click Here](https://stdntpartners-my.sharepoint.com/:p:/g/personal/debaditya_som_studentambassadors_com/EWMoHN3y8vtFhJCVOkuc9E8BQuNsuMDeGY3_Lb8dRkARpg?e=zBeoXg)
+[Click Here](https://stdntpartners-my.sharepoint.com/:p:/g/personal/elumalai_ramalingam_studentambassadors_com/ESPYdLV0LEJGpDRQspuqftwB_2sglRg8C0piE-DJAt40fw?e=wmQV60)
 
-## Pitch link :
 
-[Click Here](https://www.youtube.com/watch?v=Kc6VUHSGFVY)
