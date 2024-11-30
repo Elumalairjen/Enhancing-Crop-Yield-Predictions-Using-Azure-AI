@@ -10,18 +10,15 @@
 <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" width="100" />
 <img src="https://img.shields.io/badge/Azure_AI-5C2D91?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure AI" width="100" />
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="logo" width="100" />
-   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="logo" width="100" />
 
-   <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="logo" width="100" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="logo" width="100" />
   </p>
-This project is a web application designed to using Azure AI and ML tools to analyze dream sentiments, predict sleep quality, and locate nearby clinics for comprehensive sleep health insights.
+This project enables users to predict crop yields using advanced Azure AI tools and visualize results in Power BI Desktop. The ML model is trained, deployed as a REST API, and integrated with Power BI for testing and reporting.
 
 
 ## Features
-- **Sleep Quality Prediction:** Predicts the quality of sleep based on parameters like sleep duration, REM sleep, and heart rate.
-- **Sentiment Analysis:** Analyzes the sentiment of the dream description entered by the user to determine the overall mood or emotion in the text.
-- **Nearby Clinics Locator**: Helps users locate nearby clinics or counseling centers based on their current location, providing easy access to professional assistance when needed.
+- **Crop Yield Prediction:** Predicts the agricultural yield based on input parameters such as crop type, season, area, and year.
+- **Data Visualization:** Creates interactive dashboards using Power BI Desktop to present and analyze prediction results effectively.
+- **REST API Integration**: Provides real-time predictions through a REST API, enabling seamless integration with other applications and tools.
 
 ## Project Workflow
 
@@ -30,67 +27,62 @@ This project is a web application designed to using Azure AI and ML tools to ana
 
 ## Overview
 This application consists of two main components:
-1. **Backend (Flask API)**: A RESTful API that accepts user input and uses a machine learning model to make predictions.
-2. **Frontend (ReactJS)**: A user-friendly interface where users can input their data and receive a prediction about their sleep quality.
+1. **Backend (Azure ML REST API)**:  A RESTful API deployed on Azure Machine Learning that accepts user input, processes it using a trained machine learning model, and provides crop yield predictions.
+2. **Frontend (Power BI )**: An interactive dashboard created using Power BI, where users can input data, view predictions, and analyze results through dynamic visualizations and reports.
+
 
 ### Functionalities
-- **User Input Form**: Users can enter their sleep data: Sleep Duration, REM Sleep, and Heart Rate.
-- **Prediction**: The app predicts the quality of sleep as either "Good" or "Poor" based on the input data.
-- **Locate Nearest Clinics** : Locate nearest sleep clinics in an interactive map. 
-- **Minimalistic Design**: The application is designed with simplicity in mind, featuring a clean and intuitive interface.
+- **User Input Form**: Users can input crop-related data such as Crop Type, Season, Area, and Year.  
+- **Prediction**: The app predicts crop yield based on the provided input data using a trained machine learning model.  
+- **Visualization Dashboard**: Results and insights are displayed in interactive dashboards created using Power BI Desktop.  
+- **Minimalistic Design**: The system is designed to ensure a seamless experience with clean and intuitive interfaces for data entry and visualization.  
 
-## Tech Stack
-- **Backend:** 
-  - Python (Flask)
-  - Azure ML Workspace (for model training)
-  - Azure AI Cognitive Services (for Sentiment Analysis)
-- **Frontend:** 
-  - React.js
-  - Tailwind CSS
-- **Deployment:**
-  - Docker
-  - Docker Compose
-  - Azure App Services
-  - Azure Container Registry
-    
+ 
+## **Tech Stack**
+- **Backend:**  
+  - Azure ML Workspace (for model training and deployment)  
+  - REST API using Azure App Services  
 
-## Model Training
-The sleep quality prediction model was trained using **Azure ML Workspace**. The dataset was uploaded and stored in **Azure Blob Storage**, ensuring scalability and easy access and the model was trained in **Azure ML Workspace**.
+- **Frontend:**  
+  - Power BI Desktop (for data visualization and reporting)  
 
-## Sentiment Analysis
-For sentiment analysis, the project leverages **Azure AI**'s **Text Analytics API**. The API is used to analyze the sentiment of the dream descriptions provided by the users. Based on the emotional tone, the API classifies the text into different sentiment categories such as positive, neutral, or negative.
+- **Deployment:**  
+  - Azure App Services (for REST API hosting)  
+  - Azure Blob Storage (for storing datasets)  
+  - Azure AI Cognitive Services (for advanced analytics)  
 
-## Nearby Clinics Locator
-The project integrates a Nearby Sleep Clinics Locator feature that uses geolocation services to assist users in finding the nearest clinics or counseling centers. This functionality aims to ensure users can easily access professional help based on their current location.
 
-## Deployments
-This project has been deployed using Docker, Docker Compose, Azure App Services, and Azure Container Registry for efficient, scalable, and containerized deployment. Below are the details of the deployment process
 
-## Credits
+## Model Training  
+The crop yield prediction model was trained using **Azure ML Workspace**. The dataset was uploaded and stored in **Azure Blob Storage**, ensuring scalability and seamless access. The model training process was carried out in **Azure ML Workspace** for optimal accuracy.
+
+## Data Integration  
+The project integrates data processing and prediction through **Azure Blob Storage** and a REST API. Users can send data to the API and receive predictions for crop yield based on inputs like area, season, and crop type.
+
+## Power BI Integration  
+The project uses **Power BI Desktop** to visualize predictions and provide insightful reports. REST API integration ensures real-time data flow, enabling users to test predictions and analyze results interactively.
+
+## Deployments  
+This project was deployed using **Azure App Services** to make the model accessible as a REST API. The deployment ensures reliability, scalability, and seamless integration with Power BI for end-user testing and visualization.
+
+## Credits  
 
 - **Azure ML Workspace**  
-  Used to train and deploy the **sleep quality prediction model**, leveraging scalable cloud-based machine learning tools to streamline the model development and deployment process.
-
-- **Azure AI (Text Analytics API)**  
-  Utilized for performing **sentiment analysis** on user-provided dream descriptions, enabling accurate emotional tone classification (positive, neutral, or negative).
+  Used to train and deploy the **crop yield prediction model**, leveraging scalable cloud-based machine learning tools to streamline the model development and deployment process.
 
 - **Azure Blob Storage**  
-  Facilitated secure storage and retrieval of datasets used for training the machine learning models.
+  Facilitated secure storage and easy access to datasets used for training the machine learning model.
+
+- **Power BI Desktop**  
+  Enabled interactive visualization and reporting of prediction results through seamless integration with the REST API.
 
 - **Azure App Services**  
-  Hosted the web application, ensuring high availability, scalability, and integration with other Azure services like Azure Container Registry.
+  Hosted the deployed REST API, ensuring high availability, scalability, and secure integration with other Azure services.
 
-- **Azure Container Registry**  
-  Served as a central repository for managing and securely storing Docker images used for deploying the project in a containerized environment.
-
-- **Docker and Docker Compose**  
-  Enabled consistent containerization and multi-container orchestration for deploying the application.
-
-  
+- **REST API**  
+  Provided real-time prediction capabilities, making the model accessible for integration with external tools like Power BI.  
 
 ## Demo Video 
-
-
 
 https://github.com/user-attachments/assets/dbb6fda5-f57f-48f4-84fc-8767e7b2a274
 
