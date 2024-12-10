@@ -12,7 +12,7 @@ This project enables users to predict crop yields using advanced Azure AI tools 
 
 ## Project Workflow
 
-![image]([https://github.com/user-attachments/assets/0627ff30-3fea-47d2-969c-bb76a002eac3](https://stdntpartners-my.sharepoint.com/:u:/g/personal/elumalai_ramalingam_studentambassadors_com/ESFXvjYmwExBkXTyJ0FrBNkB6f0TLkf6cwtO_SmsDlF1sg?e=VlWBLt))
+![image](https://stdntpartners-my.sharepoint.com/:i:/g/personal/elumalai_ramalingam_studentambassadors_com/EU-TgyGjEtFAvx6GGRbl5hIBOvGo3w-ve849qaaaGtD31w?e=sed9Av)
 
 
 ## Overview
