@@ -75,7 +75,11 @@ This project was deployed using **Azure App Services** to make the model accessi
 
 ## Demo Video 
 
-https://stdntpartners-my.sharepoint.com/:v:/g/personal/elumalai_ramalingam_studentambassadors_com/EdrWhxxC7aVKl2YdCh8YdGoBWo9Ko-uTwOa92YixTvgPTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dgP2qa
+
+
+
+https://github.com/user-attachments/assets/9f1e1e20-e799-45bf-a202-8616cd5877fd
+
 
 
 ## Presentation link :
