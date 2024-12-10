@@ -12,7 +12,7 @@ This project enables users to predict crop yields using advanced Azure AI tools 
 
 ## Project Workflow
 
-![image](https://github.com/user-attachments/assets/0627ff30-3fea-47d2-969c-bb76a002eac3)
+![image]([https://github.com/user-attachments/assets/0627ff30-3fea-47d2-969c-bb76a002eac3](https://stdntpartners-my.sharepoint.com/:u:/g/personal/elumalai_ramalingam_studentambassadors_com/ESFXvjYmwExBkXTyJ0FrBNkB6f0TLkf6cwtO_SmsDlF1sg?e=VlWBLt))
 
 
 ## Overview
@@ -74,12 +74,11 @@ This project was deployed using **Azure App Services** to make the model accessi
 
 ## Demo Video 
 
-https://github.com/user-attachments/assets/dbb6fda5-f57f-48f4-84fc-8767e7b2a274
-
+https://stdntpartners-my.sharepoint.com/:v:/g/personal/elumalai_ramalingam_studentambassadors_com/EdrWhxxC7aVKl2YdCh8YdGoBWo9Ko-uTwOa92YixTvgPTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dgP2qa
 
 
 ## Presentation link :
 
-[Click Here](https://stdntpartners-my.sharepoint.com/:p:/g/personal/elumalai_ramalingam_studentambassadors_com/ESPYdLV0LEJGpDRQspuqftwB_2sglRg8C0piE-DJAt40fw?e=wmQV60)
+[Click Here](https://stdntpartners-my.sharepoint.com/:p:/g/personal/elumalai_ramalingam_studentambassadors_com/ESPYdLV0LEJGpDRQspuqftwB_2sglRg8C0piE-DJAt40fw?e=bqX2JC)
 
 
